@@ -18,6 +18,7 @@ setuptools.setup(
     url=GITHUB,
     packages=setuptools.find_packages("src"),
     package_dir={'': 'src'},
+    include_package_data=True,  
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
