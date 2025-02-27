@@ -1,1 +1,1 @@
-include mypackage/assets/*
+include html_py_pkg/assets/*
