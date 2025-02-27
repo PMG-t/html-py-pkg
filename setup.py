@@ -24,6 +24,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_data={
+        "mypackage": ["assets/*"],  # Indica i file extra da includere
     },
     install_requires=[
         
