@@ -5,7 +5,7 @@ PACKAGE_NAME = "html_py_pkg"
 AUTHOR = "Tommaso Redaelli"
 EMAIL = "tommasoredaelli276@gmail.com"
 GITHUB = f"https://github.com/PMG-t/html-py-pkg.git"
-DESCRIPTION = "Query a db in a chatbot like way"
+DESCRIPTION = "pack data"
 
 setuptools.setup(
     name=PACKAGE_NAME,
@@ -16,8 +16,7 @@ setuptools.setup(
     description=DESCRIPTION,
     long_description=DESCRIPTION,
     url=GITHUB,
-    packages=setuptools.find_packages("src"),
-    package_dir={'': 'src'},
+    packages=setuptools.find_packages(),
     include_package_data=True,  
     classifiers=[
         "Programming Language :: Python :: 3",
