@@ -1,7 +1,7 @@
 import setuptools
 
 VERSION = '1.0.0'
-PACKAGE_NAME = "html-py-pkg"
+PACKAGE_NAME = "html_py_pkg"
 AUTHOR = "Tommaso Redaelli"
 EMAIL = "tommasoredaelli276@gmail.com"
 GITHUB = f"https://github.com/PMG-t/html-py-pkg.git"
