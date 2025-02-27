@@ -1,1 +1,1 @@
-include html_py_pkg/assets/*
+include html_py_pkg/assets/template/template.html
