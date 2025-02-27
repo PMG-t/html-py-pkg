@@ -25,7 +25,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_data={
-        "html_py_pkg": ["assets/*"],  # Indica i file extra da includere
+        "html_py_pkg": ["assets/template/template.html"],  # Indica i file extra da includere
     },
     install_requires=[
         
